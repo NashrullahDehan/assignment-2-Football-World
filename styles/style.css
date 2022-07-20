@@ -1,0 +1,293 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/*-------------- common feature & utilities ---------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* ----------------------------------------------- */
+/* ------------- Match Section Design ------------ */
+/* ----------------------------------------------- */
+/*               ---------↡↡---------              */
+.match-section{
+    padding: 2.8em 6em;
+}
+.live-match{
+    border: 1px solid black;
+    height: 90vh;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.match-info{
+    /* border: 1px solid salmon; */
+    width: 40%;
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.match-info h1{
+    /* border: 1px solid rgb(114, 250, 118); */
+    color: #fff5e3;
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+.live-button button{
+    background-color: #1ac239de;
+    color: black;
+    border-radius: .5em;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: .7em 1.4em;
+    transition: all .4s ease-in-out;
+}
+.live-button button:hover{
+    background-color: #b00303;
+    color: white;
+    font-size: 1.25em;
+}
+.player-img{
+    /* border: 1px solid salmon; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* ----------------------------------------------- */
+/* -------------   Match BLog Design  ------------ */
+/* ----------------------------------------------- */
+/*               ---------↡↡---------              */
+
+.sports-blog{
+    display: flex;
+    column-gap: 1em;
+}
+.blog-buttons{
+    background-color: black;
+    border-radius: 1em;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    row-gap: 1.1em;
+    padding: 1.3em 1.3em .05em;
+    height: 13.2em;
+}
+.blog-buttons a{
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: .5em 1.2em;
+}
+.blog-buttons a:nth-child(-n+2):hover{
+    background-color: #1ac239de;
+    color: black;
+}
+.blog-buttons a:last-child{
+    background-color: #1ac239de;
+    color: black;
+}
+
+.all-article-blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.per-blog{
+    width: 14em;
+    /* border: 1px solid salmon; */
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-thumbnail img{
+    width: 14em;
+}
+.about-blog{
+    width: 13em;
+    /* border: 1px solid #DD0000; */
+    margin: .9em;
+}
+.article-tag{
+    border: 1px solid black;
+    background-color: #f0f0e6;
+    border-radius: .2rem;
+    width: 32%;
+    padding: .2em .8em;
+}
+.article-info{
+    display: flex;
+    column-gap: 2.5em;
+}
+.icon-value{
+    display: flex;
+    align-items: center;
+    column-gap: .7em;
+}
+
+/* view-all design  */
+
+.view-button{
+    margin-top: 4em;
+    text-align: center;
+}
+.view-button a{
+    background-color: #1ac239de;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    /* width: 100%; */
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: .5em 1.2em;
+    display: none;
+}
+
+.view-button a:hover{
+    background-color: #19ea0eec;
+}
+
+
+
+/* ----------------------------------------------- */
+/* --------------    Footer Design   ------------- */
+/* ----------------------------------------------- */
+/*               ---------↡↡---------              */
+
+
+footer{
+    background-color: black;
+    color: #fff5e3;
+    padding-top: 2em;
+    margin-top: 2em;
+}
+.footer-container{
+    width:90vw;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-container h3{
+    font-size: 2.5em;
+}
+hr{
+    color: gray;
+    margin: 2.7em 0;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #25cbcb;
+    display: inline-block;
+    padding: 0em .7em;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a {
+    width: 140px;
+}
+
+.icon-link{
+    padding: 3em 0;
+}
+
+
+
+/* ------------------------------------------------ */
+/* --------------- WebPage-2 design --------------- */
+/* ------------------------------------------------ */
+/*               ---------↡↡---------               */
+
+
+.all-matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.per-match{
+    width: 14em;
+    height: 11em;
+    /* border: 1px solid salmon; */
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.match-flags{
+    display: flex;
+    align-items: center;
+    column-gap: .5em;
+    margin: 0 0 .7em;
+}
+.match-flags img{
+    width: 4.5em;
+}
+.match-flags p{
+    font-weight: 600;
+}
+.match-time h4{
+    margin: 0;
+}
+
+.match-time p{
+    margin: .4em 0;
+    color: #5e5e5e;
+}
+
+
+.match-buttons{
+    background-color: black;
+    border-radius: 1em;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    row-gap: 1.1em;
+    padding: 1.3em 1.3em .05em;
+    height: 13.2em;
+}
+.match-buttons a{
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: .5em 1.2em;
+}
+.match-buttons a:nth-child(n+2):hover{
+    background-color: #1ac239de;
+    color: black;
+}
+.match-buttons a:first-child{
+    background-color: #1ac239de;
+    color: black;
+}
