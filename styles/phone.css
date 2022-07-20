@@ -15,18 +15,15 @@ body{
     align-items: center;
 }
 .match-info{
-    /* border: 1px solid salmon; */
     width: 75%;
     margin: 0;
     align-items: center;
 }
 .match-info h1{
-    border: 1px solid salmon;
     font-size: 2.1rem;
     text-align: center;
 }
 .para{
-    border: 1px solid salmon;
     text-align: center;
     overflow: hidden;
     white-space:nowrap;
@@ -53,7 +50,6 @@ body{
     height: 19rem;
 }
 .player-img{
-    border: 1px solid salmon;
     width: 18rem;
     height: 18rem;
 }

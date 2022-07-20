@@ -1,9 +1,5 @@
 /* big-phones: min-width: 573px and max-width: 699px */
 
-body{
-    border: 1px solid black;
-}
-
 .match-section {
     padding: 2.2em 3em;
 }
@@ -13,17 +9,14 @@ body{
     align-items: center;
 }
 .match-info{
-    /* border: 1px solid salmon; */
     width: 75%;
     align-items: center;
 }
 .match-info h1{
-    border: 1px solid salmon;
     font-size: 3rem;
     text-align: center;
 }
 .para{
-    border: 1px solid salmon;
     text-align: center;
 }
 .sports-blog{
@@ -39,15 +32,11 @@ body{
     
 }
 .blog-buttons a, .match-buttons a{
-    border: 1px solid silver;
     width: auto;
 }
 .img-container{
     width: 23rem;
     height: 25rem;
-}
-.player-img{
-    border: 1px solid salmon;
 }
 
 .all-article-blogs{

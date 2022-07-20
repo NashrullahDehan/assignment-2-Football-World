@@ -19,7 +19,6 @@ body{
 }
 .live-match{
     border: 1px solid black;
-    /* height: 90vh; */
     border-radius: 20px;
     color: white;
     background-color: black;
@@ -28,14 +27,12 @@ body{
 }
 
 .match-info{
-    border: 1px solid salmon;
     display: flex;
     margin: 2rem;
     flex-direction: column;
     justify-content: center;
 }
 .match-info h1{
-    /* border: 1px solid rgb(114, 250, 118); */
     color: #fff5e3;
     font-size: 3em;
     line-height: 1em;
@@ -61,18 +58,15 @@ body{
     font-size: 1.25em;
 }
 .img-container{
-    border: 1px solid rgb(114, 250, 137);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 .player-img{
-    border: 1px solid rgb(159, 114, 250);
     width: 25rem;
     height: 25rem;
 }
 .player-img img{
-    border: 1px solid rgb(114, 230, 250);
     width: 100%;
     height: 100%;
 }
@@ -244,7 +238,6 @@ hr{
 .per-match{
     width: 14em;
     height: 11em;
-    /* border: 1px solid salmon; */
     background-color: whitesmoke;
     border-radius: 1rem;
     display: flex;
@@ -281,7 +274,6 @@ hr{
     width: 135px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     row-gap: 1.1em;
     padding: 1.3em 1.3em .05em;
     height: 13.2em;
@@ -304,10 +296,3 @@ hr{
     background-color: #1ac239de;
     color: black;
 }
-
-
-
-/* media-query */
-/* @media only screen and (max-width:1084px) {
-    
-} */
