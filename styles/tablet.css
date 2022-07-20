@@ -1,4 +1,4 @@
-/* tablet: min-width: 768px and max-width: 984px */
+/* tablet: min-width: 700px and max-width: 984px */
 
 .match-section{
     padding: 2.8rem 3.5rem;
@@ -9,7 +9,10 @@
 .match-info h1{
     font-size: 2.35em;
 }
-
+.player-img{
+    width: 20rem;
+    height: 20rem;
+}
 
 .sports-blog{
     flex-direction: column;
@@ -17,7 +20,7 @@
     align-items: center;
 }
 
-.blog-buttons{
+.blog-buttons, .match-buttons{
     /* border: 1px solid salmon; */
     background-color: white;
     border-radius: 1em;
@@ -29,7 +32,7 @@
     height: 20%;
 }
 
-.blog-buttons a{
+.blog-buttons a, .match-buttons a{
     width: 30%;
     border: 1px solid silver;
     padding: .45rem;
@@ -54,10 +57,11 @@
     width: 17rem;
 }
 
-.article-tag{
-    width: 25%;
-}
-
 .view-button a{
     display: inline;
+}
+
+/* website-2 */
+.all-matches{
+    grid-template-columns: repeat(2,1fr);
 }

@@ -1,1 +1,91 @@
-/* phone: max-width: 412px */
+/* phone: max-width: 572px */
+
+body{
+    border: 1px solid black;
+}
+
+.match-section {
+    padding: .8em;
+}
+.live-match{
+    height: 34rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1rem;
+    align-items: center;
+}
+.match-info{
+    /* border: 1px solid salmon; */
+    width: 75%;
+    margin: 0;
+    align-items: center;
+}
+.match-info h1{
+    border: 1px solid salmon;
+    font-size: 2.1rem;
+    text-align: center;
+}
+.para{
+    border: 1px solid salmon;
+    text-align: center;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.sports-blog{
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-buttons, .match-buttons{
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    
+}
+.blog-buttons a, .match-buttons a{
+    border: 1px solid silver;
+    width: auto;
+}
+.img-container{
+    width: 18rem;
+    height: 19rem;
+}
+.player-img{
+    border: 1px solid salmon;
+    width: 18rem;
+    height: 18rem;
+}
+
+.all-article-blogs{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+}
+.per-blog{
+    width: 100%;
+}
+.blog-thumbnail{
+    width: 100%;
+}
+.about-blog{
+    width: 87%;
+}
+
+.links{
+    flex-direction: column;
+    align-items: center;
+}
+
+.links a{
+    display: inline-block;
+    padding: 1rem;
+}
+
+/* website-2 */
+.all-matches{
+    grid-template-columns: repeat(1,1fr);
+}
+.per-match{
+    width: 80vw;
+}
