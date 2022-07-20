@@ -1,0 +1,43 @@
+/* desktop,Laptop: min-width: 985px and max-width: 1083px */
+
+/* header section */
+
+.live-match{
+    height: 90vh;
+}
+
+.match-info h1{
+    font-size: 2.5rem;
+}
+
+
+
+/* article-blog section */
+
+.sports-blog{
+    /* column-gap: 2em; */
+    justify-content: space-around;
+}
+
+.all-article-blogs{
+    grid-template-columns: repeat(3,12rem);
+    column-gap: 2%;
+}
+.per-blog{
+    width: 100%;
+}
+
+.blog-thumbnail img{
+    width: 100%;
+}
+
+.about-blog{
+    width: 74%;
+}
+.article-tag{
+    font-size: .8rem;
+    width: 37%;
+}
+.article-tag h4{
+    font-size: 1rem;
+}
