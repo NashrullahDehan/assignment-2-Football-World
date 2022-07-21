@@ -92,6 +92,10 @@ body{
     display: flex;
     column-gap: 1em;
 }
+
+
+/* fixed-width link button design */
+
 .blog-buttons{
     background-color: black;
     border-radius: 1em;
@@ -112,6 +116,9 @@ body{
     font-weight: 600;
     padding: .5em 1.2em;
 }
+
+/* adding hovering effect */
+
 .blog-buttons a:nth-child(-n+2):hover{
     background-color: #1ac239de;
     color: black;
@@ -120,6 +127,9 @@ body{
     background-color: #1ac239de;
     color: black;
 }
+
+
+/* grid article blogs */
 
 .all-article-blogs{
     display: grid;
@@ -163,6 +173,8 @@ body{
 /* --------------------------------------- */
 /*------- 'view-all' button design  -------*/
 /* --------------------------------------- */
+
+/* only for tablet */
 
 .view-button{
     margin-top: 4em;
@@ -218,6 +230,9 @@ hr{
     display: inline-block;
     padding: 0em .7em;
 }
+
+
+/* social link design */
 
 .links{
     display: flex;
@@ -278,6 +293,7 @@ hr{
     color: #5e5e5e;
 }
 
+/* fixed-width button for webpage-2 */
 
 .match-buttons{
     background-color: black;
@@ -299,6 +315,9 @@ hr{
     font-weight: 600;
     padding: .5em 1.2em;
 }
+
+/* adding link button hovering effect */
+
 .match-buttons a:nth-child(n+2):hover{
     background-color: #1ac239de;
     color: black;
