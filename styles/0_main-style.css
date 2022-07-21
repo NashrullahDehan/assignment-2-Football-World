@@ -1,5 +1,10 @@
-/* Google fonts */
+/* ---------------------------------------- */
+/*-------------- Google fonts --------------*/
+/* ---------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
 
 /*-------------- common feature & utilities ---------------*/
 
@@ -10,10 +15,13 @@ body{
 }
 
 
+
 /* ----------------------------------------------- */
 /* ------------- Match Section Design ------------ */
 /* ----------------------------------------------- */
 /*               ---------↡↡---------              */
+
+
 .match-section{
     padding: 2.8em 6em;
 }
@@ -72,10 +80,13 @@ body{
 }
 
 
+
+
 /* ----------------------------------------------- */
 /* -------------   Match BLog Design  ------------ */
 /* ----------------------------------------------- */
 /*               ---------↡↡---------              */
+
 
 .sports-blog{
     display: flex;
@@ -87,7 +98,6 @@ body{
     width: 135px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     row-gap: 1.1em;
     padding: 1.3em 1.3em .05em;
     height: 13.2em;
@@ -119,7 +129,6 @@ body{
 }
 .per-blog{
     width: 14em;
-    /* border: 1px solid salmon; */
     background-color: whitesmoke;
     border-radius: 1rem;
     display: flex;
@@ -131,7 +140,6 @@ body{
 }
 .about-blog{
     width: 13em;
-    /* border: 1px solid #DD0000; */
     margin: .9em;
 }
 .article-tag{
@@ -151,7 +159,10 @@ body{
     column-gap: .7em;
 }
 
-/* view-all design  */
+
+/* --------------------------------------- */
+/*------- 'view-all' button design  -------*/
+/* --------------------------------------- */
 
 .view-button{
     margin-top: 4em;
