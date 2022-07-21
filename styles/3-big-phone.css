@@ -3,11 +3,17 @@
 .match-section {
     padding: 2.2em 3em;
 }
+
+/* changing the flex design to column */
+
 .live-match{
     height: 50rem;
     flex-direction: column;
     align-items: center;
 }
+
+/* centering heading and paragraph */
+
 .match-info{
     width: 75%;
     align-items: center;
@@ -19,6 +25,10 @@
 .para{
     text-align: center;
 }
+
+
+/* changing the article-blogs flex direction for mobile-phones */
+
 .sports-blog{
     flex-direction: column;
     align-items: center;
@@ -39,6 +49,8 @@
     height: 25rem;
 }
 
+/* grid layout 1 column design for phones */
+
 .all-article-blogs{
     grid-template-columns: repeat(1,1fr);
     width: 100%;
@@ -53,6 +65,8 @@
     width: 87%;
 }
 
+/* Changing flex-direction for contact links and policies */
+
 .links{
     flex-direction: column;
     align-items: center;
@@ -63,7 +77,10 @@
     padding: 1rem;
 }
 
-/* website-2 */
+/* Webpage-2 */
+
+/* grid layout 1 column design for phones */
+
 .all-matches{
     grid-template-columns: repeat(1,1fr);
 }

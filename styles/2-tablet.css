@@ -20,6 +20,8 @@
     align-items: center;
 }
 
+/* changing the fixed-width link button design for tablets */
+
 .blog-buttons, .match-buttons{
     background-color: white;
     border-radius: 1em;
@@ -36,6 +38,8 @@
     border: 1px solid silver;
     padding: .45rem;
 }
+
+/* grid layout 2 column design for tablet */
 
 .all-article-blogs{
     grid-template-columns: repeat(2,1fr);
@@ -56,11 +60,14 @@
     width: 17rem;
 }
 
+/* showing 'VIEW ALL' button only for tablet */
+
 .view-button a{
     display: inline;
 }
 
-/* website-2 */
+/* Webpage-2: match schedule grid layout 2 columns for tablets */
+
 .all-matches{
     grid-template-columns: repeat(2,1fr);
 }

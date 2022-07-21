@@ -1,12 +1,11 @@
 /* phone: max-width: 572px */
 
-body{
-    border: 1px solid black;
-}
-
 .match-section {
     padding: .8em;
 }
+
+/* resizing things for small phones */
+
 .live-match{
     height: 34rem;
     flex-direction: column;
@@ -23,16 +22,24 @@ body{
     font-size: 2.1rem;
     text-align: center;
 }
+
+/* adding ELLIPSIS effect on small phones paragraph */
+
 .para{
     text-align: center;
     overflow: hidden;
     white-space:nowrap;
     text-overflow: ellipsis;
 }
+
+/* changing flex-direction to column for fixed-width buttons and grid design  */
+
 .sports-blog{
     flex-direction: column;
     align-items: center;
 }
+
+/* different design for buttons in phones */
 
 .blog-buttons, .match-buttons{
     background-color: white;
@@ -45,6 +52,9 @@ body{
     border: 1px solid silver;
     width: auto;
 }
+
+/* resizing images for small phones */
+
 .img-container{
     width: 18rem;
     height: 19rem;
@@ -54,6 +64,8 @@ body{
     height: 18rem;
 }
 
+/* grid layout 1 column design for small phones */
+
 .all-article-blogs{
     grid-template-columns: repeat(1,1fr);
     width: 100%;
@@ -61,12 +73,17 @@ body{
 .per-blog{
     width: 100%;
 }
+
+/* resizing images and about section  */
+
 .blog-thumbnail{
     width: 100%;
 }
 .about-blog{
     width: 87%;
 }
+
+/* Changing flex-direction for contact links and policies */
 
 .links{
     flex-direction: column;
@@ -78,7 +95,10 @@ body{
     padding: 1rem;
 }
 
-/* website-2 */
+/* Webpage-2 */
+
+/* grid layout 1 column design for phones */
+
 .all-matches{
     grid-template-columns: repeat(1,1fr);
 }

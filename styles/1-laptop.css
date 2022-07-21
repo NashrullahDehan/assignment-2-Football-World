@@ -6,6 +6,8 @@
     height: 90vh;
 }
 
+/* resizing fonts and images */
+
 .match-info h1{
     font-size: 2.5rem;
 }
@@ -25,6 +27,8 @@
     justify-content: space-around;
 }
 
+/* reducing column gap between cards for relatively small screen size */
+
 .all-article-blogs{
     grid-template-columns: repeat(3,12rem);
     column-gap: 2%;
@@ -40,6 +44,9 @@
 .about-blog{
     width: 74%;
 }
+
+/* resizing transfer tag */
+
 .article-tag{
     font-size: .8rem;
 }
